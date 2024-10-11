@@ -1,13 +1,11 @@
 import './App.css'
-import NavBar from './Home/assets/navbar/navbar'
+import HomePage from './Home/pages/HomePage/homePage'
 
 function App() {
 
   return (
     <>
-    {/* <NavLink text="Hi"></NavLink> */}
-    <NavBar />
-      {/* <p>Hi hi</p> */}
+      <HomePage />
     </>
   )
 }

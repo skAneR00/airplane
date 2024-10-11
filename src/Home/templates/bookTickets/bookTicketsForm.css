@@ -1,0 +1,14 @@
+.book-tickets-form{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF;
+    border-radius: 7px;
+    min-height: 350px;
+
+    -webkit-box-shadow: 0px -5px 20px -1px rgba(84,84,84,0.75);
+    -moz-box-shadow: 0px -5px 20px -1px rgba(84,84,84,0.75);
+    box-shadow: 0px -5px 20px -1px rgba(84,84,84,0.75);
+}
+.book-tickets-form-title{
+    border-bottom: 1px solid #D9D9D9;
+}

@@ -1,0 +1,17 @@
+.nav-main{
+    display: flex;
+    flex-direction: column;
+    background: url('../../assets/nav-back.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    padding-inline: 140px;
+    min-height: 576px;
+    gap: 170px;
+}
+.nav-main-text{
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    font-size: 48px;
+}

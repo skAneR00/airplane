@@ -1,0 +1,36 @@
+.radio-title {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #4E4E4E;
+  position: relative;
+  margin: 0;
+}
+
+.radio-title input {
+  display: none;
+}
+
+.radio-title span {
+  position: relative;
+}
+
+.radio-title.active span {
+  color: #FF7100;
+}
+
+.radio-title span::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: #FF7100;
+  transition: width 0.4s ease;
+}
+
+.radio-title.active span::after {
+  width: 100%; 
+}

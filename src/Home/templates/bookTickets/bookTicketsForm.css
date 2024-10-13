@@ -11,4 +11,13 @@
 }
 .book-tickets-form-title{
     border-bottom: 1px solid #D9D9D9;
+    display: flex;
+    align-items: flex-end;
+    padding: 25px 67px 0 67px;
+    gap: 80px;
+}
+.book-tickets-form-types{
+    display: flex;
+    padding: 10px 61px;
+    gap: 80px;
 }

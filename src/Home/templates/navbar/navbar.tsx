@@ -1,4 +1,4 @@
-import NavLink from '../../ui/nav-link/navLink'
+import NavLink from '../../ui/navLink/navLink'
 import './navbar.css'
 
 

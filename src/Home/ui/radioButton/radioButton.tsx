@@ -1,10 +1,20 @@
 import './radioButton.css'
 
-type Text = {
-    text: string,
-    id: string
-};
+interface RadioButtonProps {
+    label: string;
+    value: string;
+    checked: boolean;
+    onChange: (value: string) => void;
+}
 
-export default function RadioButton({text, id}: Text){
-    return <label><input type="radio" name={text} id={id} />{text}</label>
+export default function RadioButton({ label, value, checked, onChange }: RadioButtonProps) {
+    return <label>
+        <input
+            type="radio"
+            value={value}
+            checked={checked}
+            onChange={() => onChange(value)}
+        />
+        {label}
+    </label>
 }
